@@ -14,5 +14,8 @@ This project uses a diffusion-based model to denoise images from the CIFAR-10 da
 
 To run this project, install the required packages by running:
 
-```bash
+
 pip install -r requirements.txt
+## Run the code use this
+!python3 main.py
+```bash
