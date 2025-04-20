@@ -1,16 +1,3 @@
-# STEP 1: Install & Import
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torchvision import datasets, transforms
-from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
-import numpy as np
-from tqdm.notebook import tqdm
-import random
-
-device = "cpu"  # forced CPU for Colab
-
 # STEP 2: Load CIFAR-10 Dataset
 transform = transforms.Compose([
     transforms.ToTensor(),
