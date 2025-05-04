@@ -1,0 +1,1 @@
+save_checkpoint(epoch + 1, model, optimizer, loss.item(), f"checkpoint_epoch_{epoch + 1}.pth")
